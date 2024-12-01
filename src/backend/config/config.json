@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Ltybc0000",
+    "database": "day9_bootcamp",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Ltybc0000",
+    "database": "day9_bootcamp",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "Ltybc0000",
+    "database": "day9_bootcamp",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
