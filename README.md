@@ -7,7 +7,7 @@ Web application for searching vacancies
 
 2.  Находясь в каталоге **ex1** откройте файл `backend/config/config.json` для конфигурации доступа к БД:
 
-    ![config](img/1.png)
+    ![config](src/img/1.png)
 
     В разеделе `"development"` замените **"username"** и **"password"** на те, которые используются для доступа к `postgres` в вашей системе.
 
