@@ -1,0 +1,331 @@
+.vertical-menu {
+  width: 15%; /* Установите ширину, если хотите */
+  height: 100vh;
+  border: 5px solid rgb(99, 93, 121);
+  background-color: #eee;
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Серый цвет фона */
+  color: black; /* Черный цвет текста */
+  display: block; /* Сделайте так, чтобы ссылки располагались друг под другом */
+  padding: 12px; /* Добавить немного отступа */
+  text-decoration: none; /* Удалить подчеркивание из ссылок */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Темно-серый фон на наведении курсора мыши */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Добавить зеленый цвет "активная/текущая" ссылки */
+  color: white;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+}
+
+.logout {
+  width: 12.6%;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 10px;
+}
+
+.App {
+   width: 100%;
+   padding: 20px 30px;
+   border: 5px solid rgb(99, 93, 121);
+   height: 100vh; /* Высота блока */
+   overflow-y: scroll; /* Включаем вертикальную прокрутку */
+}
+
+.icon {
+  width: 100px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 15%;
+}
+
+.login-form {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-border {
+   border: 5px solid rgb(99, 93, 121);
+   padding: 120px;
+}
+
+.btn-login {
+  display: flex;
+  justify-content: end;
+  margin-top: 60px;
+}
+
+.user-company {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-choise {
+  width: 200px;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.exist {
+  margin: 30px;
+}
+
+.current-user {
+  color: #5654eb;
+}
+
+.logout-center {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logout-border {
+  width: 30%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 5px solid rgb(99, 93, 121);
+}
+
+.vacancy-item {
+  border: 5px solid rgb(99, 93, 121);
+  margin-top: 30px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.vacancy-item h3 {
+  color: #4c4b7c;
+  padding: 15px 50px;
+}
+
+.vacancy-item p {
+  padding: 0 0 0 80px;
+  margin-bottom: 10px;
+  color: #5451da;
+  font-size: 17px;
+}
+
+.Vacancy-card-container {
+  width: 90%;
+  height: 90vh;
+  border: 5px solid rgb(99, 93, 121);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.Vacancy-item {
+  margin-top: 30px 30px;
+  padding: 5% 5%;
+}
+
+.Vacancy-item span {
+  color: rgb(99, 93, 121);
+}
+
+.Vacancy-item h1 {
+  color: #4CAF50;
+  font-size: 4rem;
+}
+
+.mb-size {
+  width: 60%;
+  margin-top: 20px;
+}
+
+.Vacancy-description {
+  height: 20vh;
+}
+
+.btn-size {
+  width: 15%;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.ViewVacancy {
+  width: 100%;
+  display: flex;
+}
+
+.VacancyID {
+  width: 100%;
+  height: 90vh;
+  position: sticky;
+  top: 0;
+  border: 5px solid rgb(99, 93, 121);
+  margin-left: -10%;
+  padding: 10px;
+}
+
+.vacncy-list {
+  width: 70%;
+}
+
+.Vacancy-id-container {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Vacancy-id-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  margin-top: 30px;
+  margin-left: 30px;
+  color: #4CAF50;
+}
+
+.Vacancy-id-span-color {
+  color: #5654eb;
+}
+
+.lvl {
+  border: 5px solid rgb(99, 93, 121);
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 15px;
+  width: 30%;
+}
+
+.Vacancy-title {
+  width: 50%;
+}
+
+.Vacancy-id-center {
+  height: 50%;
+  border: 5px solid rgb(99, 93, 121);
+  margin: 30px;
+  padding: 15px;
+  background-color: #d0afd6;
+  text-wrap: wrap;
+}
+
+.Vacancy-id-bottom {
+  height: 10%;
+  margin: 30px;
+  padding: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.Vacancy-id-contact {
+  margin: 30px;
+  padding: 15px;
+}
+
+.Vacancy-id-description {
+  color: #2f2f35;
+  font-size: 20px;
+}
+
+.vacancy-id-tags {
+  color: #4CAF50;
+  margin: 30px;
+  padding: 15px;
+}
+
+.vacancy-id-btn {
+  margin-left: 10px;
+}
+
+.time {
+  color: #2f2f35;
+  font-size: 15px;
+  padding-right: 10px;
+  margin-right: 5px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.item-top-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.responded {
+  color: #4CAF50;
+  margin-right: 5px;
+}
+
+.company-name {
+  color: #4CAF50;
+}
+
+.widht-card {
+  width: 100%;
+}
+
+.item-top-row-img {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.vacancy-width {
+  width: 95%;
+}
+
+
+
+.count-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-user {
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+}
+.count-user {
+  margin-right: 10px;
+  margin-left: 0;
+  color: #4CAF50;
+  font-size: 30px;
+}
